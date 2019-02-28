@@ -1,11 +1,7 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
+source 'https://github.com/kevinKyZheng/KYCocoaPods.git'
 
 target 'KYPrivatePod_Example' do
-  pod 'KYPrivatePod', :path => '../'
-
-  target 'KYPrivatePod_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'KYPrivatePod'
 end

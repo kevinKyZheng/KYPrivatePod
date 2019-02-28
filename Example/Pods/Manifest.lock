@@ -1,0 +1,16 @@
+PODS:
+  - KYPrivatePod (0.1.0)
+
+DEPENDENCIES:
+  - KYPrivatePod
+
+SPEC REPOS:
+  https://github.com/kevinKyZheng/KYCocoaPods.git:
+    - KYPrivatePod
+
+SPEC CHECKSUMS:
+  KYPrivatePod: 801fff1a237d43f5fb349ab7de7a303034de8f7c
+
+PODFILE CHECKSUM: 80faaf9feab66508a0ebf679465ce711c940a536
+
+COCOAPODS: 1.7.0.beta.1

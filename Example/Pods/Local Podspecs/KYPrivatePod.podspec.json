@@ -1,0 +1,23 @@
+{
+  "name": "KYPrivatePod",
+  "version": "0.1.0",
+  "summary": "Zheng kaiyuan add the new summary",
+  "description": "This is a description you need to add by Ky",
+  "homepage": "https://github.com/kevinKYZheng/KYPrivatePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevin_zhengky@163.com": "zhengkaiyuan@chinawutong.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinKYZheng/KYPrivatePod.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "4.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYPrivatePod/Classes/**/*"
+}

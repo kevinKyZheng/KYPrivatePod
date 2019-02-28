@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KYPrivatePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KYPrivatePod.'
+  s.summary          = 'Zheng kaiyuan add the new summary'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,16 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a description you need to add by Ky
                        DESC
 
-  s.homepage         = 'https://github.com/kevin_zhengky@163.com/KYPrivatePod'
+  s.homepage         = 'https://github.com/kevinKYZheng/KYPrivatePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kevin_zhengky@163.com' => 'zhengkaiyuan@chinawutong.com' }
-  s.source           = { :git => 'https://github.com/kevin_zhengky@163.com/KYPrivatePod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kevinKYZheng/KYPrivatePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_versions = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KYPrivatePod/Classes/**/*'
