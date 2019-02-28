@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KYPrivatePod_Example' do
+  pod 'KYPrivatePod', :path => '../'
+
+  target 'KYPrivatePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
